@@ -13,3 +13,19 @@
   * Keyboard layout changed to Dvorak
 
   That's it for now, but I might add more in the future.
+
+* Additional Notes
+
+  * To install i3 on Centos 8:
+    * i3 is not included in official Centos 8 repositories,
+      but is available from the [[https://copr.fedorainfracloud.org/coprs/djotaku/i3wm/][djotaku/i3wm]] copr repository
+    * djotaku/i3wm is missing =i3status=,
+      so you will need to install it (or an alternative) from another source.
+      I use [[https://github.com/greshake/i3status-rust][i3status-rust]] ([[https://copr.fedorainfracloud.org/coprs/atim/i3status-rust/][copr]]).
+      * After installing, copy example config
+        from =/usr/share/doc/i3status-rust/examples/config.toml=
+        to =~/.config/i3status-rust/config.toml=
+        and alter if desired
+        (I just use the example config)
+      * Alter =bar= section in i3 config to use =i3status-rs=
+        (see [[https://github.com/davisn/i3-config/tree/centos8][centos8]] branch for details)
