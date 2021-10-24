@@ -1,0 +1,15 @@
+#+title: i3 Config
+
+* About
+
+  This is my i3 config.
+  I'm making it public in case any one else wants
+  to incorporate similar features into their own config.
+  For the most part, it's just the default config with some minor tweaks:
+
+  * Graphics mode set to 1920x1080 on startup
+    (may need to change output to appropriate value,
+    and change mode if desired)
+  * Keyboard layout changed to Dvorak
+
+  That's it for now, but I might add more in the future.
