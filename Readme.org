@@ -11,6 +11,7 @@
     (may need to change output to appropriate value,
     and change mode if desired)
   * Keyboard layout changed to Dvorak
+  * Use i3status-rs instead of i3status (on Centos 8)
 
   That's it for now, but I might add more in the future.
 
