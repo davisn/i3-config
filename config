@@ -11,7 +11,12 @@
 
 set $mod Mod4
 
-# Set ketboard layout to Dvorak
+# Set graphics mode via xrandr
+set $graphics-output Virtual-0
+set $graphics-mode 1920x1080
+exec xrandr --output $graphics-output --mode $graphics-mode
+
+# Set keyboard layout to Dvorak
 # (We won't bother with switching between standard US for now)
 exec setxkbmap -layout dvorak
 
